@@ -1,26 +1,24 @@
 {
-  "name": "ep_latexexport",
-  "description": "LaTeX Export for Etherpad Lite",
-  "homepage": "https://github.com/edy-b/ep_latexexport",
-  "keywords": [
-    "etherpad",
-    "latex",
-    "export"
-  ],
-  "author": {
-    "name": "Eduard Baun",
-    "email": "eduard@baun.de",
-    "url": "http://baun.de"
-  },
-  "version": "1.0.0",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/edy-b/ep_latexexport.git"
-  },
-  "dependencies": {},
-  "devDependencies": {},
-  "optionalDependencies": {},
-  "engines": {
-    "node": "*"
-  }
+    "name": "ep_export_less_and_css",
+    "description": "Export a pad’s content with a CSS mime-type, so that your can use it for live editing a websites CSS. Optionally pass the CSS through the LESS compiler.",
+    "homepage": "http://i.liketightpants.net/and/48-hours-of-writing-stylesheets-with-etherpad-and-a-gong",
+    "keywords": ["etherpad", "css", "less", "collaboration", "export"],
+    "author": {
+        "name": "Eric Schrijver",
+        "email": "eric@ericschrijver.nl",
+        "url": "http://ericschrijver.nl/"
+    },
+    "version": "0.0.1",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/codingisacopingstrategy/ep_export_less_and_css.git"
+    },
+    "dependencies": {
+        "less": "1.5.x"
+    },
+    "devDependencies": {},
+    "optionalDependencies": {},
+    "engines": {
+        "node": "*"
+    }
 }

@@ -1,13 +1,13 @@
 {
   "parts": [
     {
-      "name": "latexexport",
+      "name": "export_less_and_css",
       "pre": ["ep_etherpad-lite/webaccess"],
       "hooks": {
-        "expressCreateServer": "ep_latexexport/hooks",
-        "eejsBlock_exportColumn": "ep_latexexport/hooks",
-        "eejsBlock_scripts": "ep_latexexport/hooks",
-        "eejsBlock_styles": "ep_latexexport/hooks"
+        "expressCreateServer": "ep_export_less_and_css/hooks",
+        "eejsBlock_exportColumn": "ep_export_less_and_css/hooks",
+        "eejsBlock_scripts": "ep_export_less_and_css/hooks",
+        "eejsBlock_styles": "ep_export_less_and_css/hooks"
       }
     }
   ]

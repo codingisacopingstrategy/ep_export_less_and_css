@@ -1,5 +1,5 @@
-$(document).ready(function (){
-	var pad_root_path = new RegExp(/.*\/p\/[^\/]+/).exec(document.location.pathname)
-	var pad_root_url = document.location.href.replace(document.location.pathname, pad_root_path)
-	$("#exportlatexa").attr("href", pad_root_path + "/export/latex");
+$(document).ready(function() {
+    var pad_root_path = new RegExp(/.*\/p\/[^\/]+/).exec(document.location.pathname);
+    $("#exportcssa").attr("href", pad_root_path + "/export/css");
+    $("#exportlessa").attr("href", pad_root_path + "/export/less");
 });
