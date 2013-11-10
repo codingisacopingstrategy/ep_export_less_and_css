@@ -1,6 +1,9 @@
 Etherpad CSS and LESS export
 ============================
 
+![Screenshot of Etherpad with the export functionality](http://i.liketightpants.net/and/assets/called/ep_export_less_and_css_screenshot_676x355.png)
+
+
 How does it work
 ----------------
 
